@@ -7,9 +7,12 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>My UW life</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link href="styles.css" rel="stylesheet">
         <script src="public.js"></script>
+        <title>My UW life</title>
     </head>
 
     <body>
@@ -21,23 +24,50 @@
         <main>
             <section id="nav-bar">
                 <div>
-                    <span id="acedemics" class="catagory">Academics</span>
-                    <span id="food" class="catagory">Food</span>
-                    <span id="trips" class="catagory">Trips</span>
-                    <span id="resume" class="catagory">Resume</span>
+                    <button id="academics" class="catagory">Academics</button>
+                    <button id="food" class="catagory">Food</button>
+                    <button id="trips" class="catagory">Trips</button>
+                    <button id="resume" class="catagory">Resume</button>
                 </div>
             </section>
 
             <section id="content">
-                <div id="food_container">
-                    <img src="img/UDon.jpg" alt="a picture of UDon noodle">
+                <div id="intro" class="container">
+                    <p>I arrived in Seattle on Sept 21 2021, and was about to start the rest of three years of my undergrad learning.
+                        As an international student, I am excited to explore the new environment and meet new people with many different backgrounds.
+                        The completely different food culture and weather especially attract me. So I create this website to remember my discoveries.
+                    </p>
+                    <br>
+                    <p>For now, this is not the complete version, but I expect this page to be enriched through this quarter.</p>
+                </div>
+                <div id="academics_container">
+                </div>
+                <div id="food_container" class="container">
+                    <img src="img\food\pasta_chicken.jpg">
+                    <img src="img\food\pho_ga.jpg">
+                    <img src="img\food\FakeChineseFood.jpg">
+                    <img src="img\food\Husky_Combo.jpg">
+                    <img src="img\food\last_meal_at_home.jpg">
+                    <img src="img\food\Salad_001.jpg">
+                    <img src="img\food\Seafood.jpg">
+                    <img src="img\food\UV_pizza.jpg">
+                    <img src="img\food\YGF.jpg">
+                </div>
+                <div id="trips_container">
+                    <img src="img\trips\alder.jpg">
+                    <img src="img\trips\ocean.jpg">
+                    <img src="img\trips\pike_place_market.jpg">
+                    <img src="img\trips\seattle_night.jpg">
+                    <img src="img\trips\suzallo.jpg">
+                    <img src="img\trips\wheel_pike.jpg">
+                </div>
+                <div id="resume_container">
                 </div>
             </section>
         </main>
 
         <footer>
-            <p>Booker Hu, UW Electrical Engineering 2024er
-                Created this websites in 21AU DXART200.
+            <p>Booker Hu, UW Electrical Engineering 2024er <br>Created this websites in 21AU DXART200.
             </p>
         </footer>
     </body>
