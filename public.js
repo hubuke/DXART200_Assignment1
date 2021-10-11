@@ -5,14 +5,14 @@
 
     function init() {
         id("content").displayContent();
-        let catagories = ['acedemics', 'food', 'trips', 'resume'];
-        for (let i = 0; i < catagories.length; i++) {
-            id("food").addEventListener("click", displayContent("food"));
-        }
+        id('academics').addEventListener("click", displayContent('academics'));
+        id('food').addEventListener("click", displayContent('food'));
+        id('trips').addEventListener("click", displayContent('trips'));
+        id('resume').addEventListener("click", displayContent('resume'));
     }
 
     function displayContent(catagory) {
-
+        id(catagory + "_container").classList.remove("hidden");
     }
 
     function id(idName) {
